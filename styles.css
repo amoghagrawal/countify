@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&display=swap');
+
+body {
+  font-family: 'Outfit', Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 270px;
+  padding: 10px; 
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  color: #0088ff;
+  margin: 0 0 10px; 
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+textarea {
+  width: 95%;
+  height: 50px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  resize: none;
+  background-color: #f9f9f9;
+  margin-bottom: 8px;
+}
+
+textarea::placeholder {
+  color: #c4c4c4;
+}
+
+.result {
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+  margin: 5px 0;
+}
+
+.result strong {
+  font-weight: 800;
+  color: #000;
+}
+
+button {
+  background-color: #0088ff;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #006bbf;
+}
